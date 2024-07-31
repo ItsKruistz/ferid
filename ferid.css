@@ -63,3 +63,51 @@ body {
     --ring: hsl(35.5, 91.7%, 32.9%);
 	}
 }
+
+h1 {
+	font-size: 32px;
+	line-height: 1.4;
+}
+
+h2 {
+	font-size: 28px;
+	line-height: 1.3;
+}
+
+h3 {
+	font-size: 24px;
+	line-height: 1.2;
+}
+
+h4 {
+	font-size: 20px;
+	line-height: 1.2;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+h6 {
+	font-size: 16px;
+}
+
+small {
+	font-size: 14px;
+}
+
+hgroup h1 {
+  line-height: 1.2;
+}
+
+hgroup h2 {
+  line-height: 1.2;
+}
+
+hgroup p {
+  color: var(--muted-foreground);
+}
+
+header {
+  padding: 12px;
+}
