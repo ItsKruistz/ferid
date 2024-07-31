@@ -191,6 +191,9 @@ button,
 	white-space: nowrap;
 	transition-property: color;
 	border-color: transparent;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
 	height: 34px;
 	border-radius: var(--radius);
 	padding-left: 1rem;
