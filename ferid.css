@@ -119,9 +119,13 @@ svg {
 }
 
 .icon {
-  height: 40px;
-  width: 40px;
-  border-radius: 999px;
+  height: 44px;
+  width: 44px;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
 }
 
 .ghost {
@@ -161,7 +165,6 @@ svg {
 .icon--sm {
   height: 22px;
   width: 22px;
-  color: inherit;
 }
 
 .mb-2 {
