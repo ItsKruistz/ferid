@@ -39,6 +39,11 @@ body {
   color: var(--foreground);
 }
 
+svg {
+  display: inline-block;
+  max-width: 100%;
+}
+
 :root {
   --foreground: hsl(20, 14.3%, 4.1%);
   --primary: hsl(47.9, 95.8%, 53.1%);
@@ -116,6 +121,7 @@ body {
 .icon {
   height: 40px;
   width: 40px;
+  border-radius: 999px;
 }
 
 .ghost {
@@ -146,6 +152,16 @@ body {
   display: flex;
   align-items: center;
   background: var(--background);
+}
+
+.navbar h4 {
+  font-weight: 600;
+}
+
+.icon--sm {
+  height: 22px;
+  width: 22px;
+  color: inherit;
 }
 
 .mb-2 {
