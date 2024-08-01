@@ -118,6 +118,10 @@ body {
   width: 40px;
 }
 
+.ghost {
+  background: transparent;
+}
+
 .max {
   width: 100%;
 }
@@ -132,6 +136,16 @@ body {
 
 .large.round {
   border-radius: var(--radius-medium);
+}
+
+.navbar {
+  z-index: 10;
+  padding: 8px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  background: var(--background);
 }
 
 .mb-2 {
