@@ -1,0 +1,62 @@
+/* Global settings and variables */
+
+body {
+  line-height: 1.5;
+  font-family: var(--ferid-font-family), system-ui, sans-serif;
+  font-size: 16px;
+  min-height: 100vh;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  background: var(--background);
+  color: var(--foreground);
+}
+
+::-moz-selection {
+  background: var(--primary-transparent);
+  color: var(--foreground);
+}
+
+::selection {
+  background: var(--primary-transparent);
+  color: var(--foreground);
+}
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(20, 14.3%, 4.1%);
+  --primary: hsl(47.9, 95.8%, 53.1%);
+  --primary-transparent: hsl(47.9, 95.8%, 53.1%, 30%);
+  --primary-foreground: hsl(26, 83.3%, 14.1%);
+  --secondary: hsl(60, 4.8%, 95.9%);
+  --secondary-foreground: hsl(24, 9.8%, 10%);
+  --muted: hsl(60, 4.8%, 95.9%);
+  --muted-foreground: hsl(25, 5.3%, 44.7%);
+  --accent: hsl(60, 4.8%, 95.9%);
+  --accent-foreground: hsl(24, 9.8%, 10%);
+  --destructive: hsl(0, 72.22%, 50.59%);
+  --destructive-foreground: hsl(60, 9.1%, 97.8%);
+  --border: hsl(20, 5.9%, 90%);
+  --ring: hsl(20, 14.3%, 4.1%);
+  --radius: 0.5rem;
+  --radius-medium: 0.7rem;
+  --ferid-font-family: "system-ui"
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+	  --background: hsl(0, 0%, 6%);
+    --foreground: hsl(60, 9.1%, 97.8%);
+    --primary: hsl(47.9, 95.8%, 53.1%);
+    --primary-foreground: hsl(26, 83.3%, 14.1%);
+    --secondary: hsl(12, 6.5%, 15.1%);
+    --secondary-foreground: hsl(60, 9.1%, 97.8%);
+    --muted: hsl(12, 6.5%, 15.1%);
+    --muted-foreground: hsl(24, 5.4%, 63.9%);
+    --accent: hsl(12, 6.5%, 15.1%);
+    --accent-foreground: hsl(60, 9.1%, 97.8%);
+    --destructive: hsl(0, 62.8%, 30.6%);
+    --destructive-foreground: hsl(60, 9.1%, 97.8%);
+    --border: hsl(12, 6.5%, 15.1%);
+    --ring: hsl(35.5, 91.7%, 32.9%);
+	}
+}
