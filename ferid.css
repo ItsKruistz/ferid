@@ -45,6 +45,7 @@ svg {
 }
 
 :root {
+  --background: hsl(0, 0%, 100%)
   --foreground: hsl(20, 14.3%, 4.1%);
   --primary: hsl(47.9, 95.8%, 53.1%);
   --primary-transparent: hsl(47.9, 95.8%, 53.1%, 30%);
@@ -142,6 +143,10 @@ svg {
 
 .large.round {
   border-radius: var(--radius-medium);
+}
+
+.shadow {
+  box-shadow: 0 3px 10px rgb(0,0,0,0.2);
 }
 
 .navbar {
