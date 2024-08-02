@@ -1,7 +1,7 @@
 .showcase {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 16.5rem;
+  left: 6;
   z-index: -1;
   scale: 1.2;
 }
