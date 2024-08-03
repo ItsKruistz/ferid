@@ -5,3 +5,25 @@
   z-index: -1;
   scale: 1.2;
 }
+
+.custom-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.75rem; /* 44px */
+  width: 2.75rem; /* 44px */
+  color: black;
+  border-radius: 9999px; /* rounded-full */
+  background-color: transparent; /* Assuming button has no background */
+  transition: opacity 150ms;
+}
+
+/* Handling dark mode might require JavaScript or a CSS media query if using prefers-color-scheme */
+.custom-button.dark-mode {
+  color: white;
+}
+
+/* Hover effect */
+.custom-button:hover {
+  opacity: 0.5;
+}
