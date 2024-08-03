@@ -1,0 +1,65 @@
+.outlined {
+	background: transparent;
+	border: 1px solid var(--border);
+	color: inherit;
+}
+
+.fill {
+	border-color: transparent;
+	background: var(--accent);
+	color: inherit;
+}
+
+.primary {
+	background: var(--primary);
+	border-color: transparent;
+}
+
+.small {
+  height: 30px;
+  border-radius: 9999px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.large {
+  height: 48px;
+  border-radius: 9999px;
+  padding-left: 32px;
+  padding-right: 32px;
+  font-size: 15px;
+}
+
+.icon {
+  height: 44px;
+  width: 44px;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+}
+
+.ghost {
+  background: transparent;
+}
+
+.max {
+  width: 100%;
+}
+
+.pill {
+  border-radius: 9999px;
+}
+
+.round {
+  border-radius: var(--radius);
+}
+
+.large.round {
+  border-radius: var(--radius-medium);
+}
+
+.shadow {
+  box-shadow: 0 8px 30px rgb(0,0,0,0.12);
+}
